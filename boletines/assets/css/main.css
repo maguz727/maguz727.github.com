@@ -1,0 +1,144 @@
+html
+{
+    font-family: 'Nunito', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #00b09b;
+}
+
+a:hover
+{
+    opacity: 0.5;
+}
+
+.title
+{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container
+{
+    background: #00b09b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content
+{
+    max-width: 960px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    /* box-shadow: diferenciaHorizontal diferenciaVertical desenfoque amplitud color; */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 8px;
+    position: relative;
+    padding: 1.8em;
+}
+
+.paragraph
+{
+    line-height: 1.8em;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.action
+{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+.close
+{
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    background-color: #96c93d;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.table
+{
+    width: 100%;
+    border-spacing: 0;
+}
+
+.table td, .table th
+{
+    padding: 1em;
+
+}
+
+.table tr:nth-child(even)
+{
+    background-color: #defaad;
+}
+
+.fa-star
+{
+    color: #00b09b;
+}
+
+.title-items
+{
+    /* border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #00b09b; */
+
+    /* shorthand Properties */
+    border-bottom: solid 2px #00b09b;    
+    padding-bottom: 1em;
+    font-size: 2em;
+}
+
+.address
+{
+    font-weight: 700;
+    color: #00b09b;
+    font-size: 1.2em;
+}
+
+.main-image
+{
+    float: left;
+    margin-right: 1em;
+    height: 250px;;
+}
+
+.position
+{
+    background-color: #96c93d;
+    color: #fff;
+    padding: 10px;
+    margin-right: 0.5em;
+    border-radius: 5px;
+    
+}
+
+/* Especificidad
+1. !important
+2. Atributo style
+
+Selectores
+
+1. Selectores por ID
+2. Selectores de clae, atributos y pseudo clases
+3. Selectores de tipo y pseudo elementos
+
+*/
